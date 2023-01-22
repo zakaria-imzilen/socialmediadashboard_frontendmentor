@@ -9,11 +9,11 @@ const TodayCard = ({ title, theme, social, num, perc, color, icon }) => {
         {title}
       </h5>
       <div className="col-6 py-3 m-0 text-end">
-        <img width={30} src={social} />
+        <img alt="social" width={30} src={social} />
       </div>
       <h3 className="col-6 py-3 m-0 text-start fw-semibold">{num}</h3>
       <div className="col-6 py-3 m-0 text-end analytics">
-        <img src={icon} />
+        <img alt="icon" src={icon} />
         <span className={`ms-2 fs-4 text-${color} fw-bold`}>{perc}%</span>
       </div>
     </div>

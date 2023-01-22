@@ -15,13 +15,13 @@ const OverAllCard = ({
       } rounded-1 ${name}`}
     >
       <div className="social mb-3">
-        <img src={social} />
+        <img alt="social" src={social} />
         <span className="ms-2 fw-semibold text-secondary">{userName}</span>
       </div>
       <h1 className={`fw-bold mb-0 ${theme && "text-light"}`}>{socialNum}</h1>
       <p className="mt-0 text-muted">FOLLOWERS</p>
       <div className="analytics">
-        <img src={icon} />
+        <img alt="icon" src={icon} />
         <span className={`ms-2 text-${todayColor} fw-bold`}>{today} Today</span>
       </div>
     </div>
